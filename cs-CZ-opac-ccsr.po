@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2012-11-06 16:10+0400\n"
-"PO-Revision-Date: 2013-03-25 12:00+0200\n"
+"PO-Revision-Date: 2013-03-25 12:06+0200\n"
 "Last-Translator: Josef Moravec <josef.moravec@gmail.com>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/opac-ccsr/cs/>\n"
 "Language: cs-CZ\n"
@@ -431,8 +431,8 @@ msgid ""
 "Error! Your tag was entirely markup code. It was NOT added. Please try again "
 "with plain text."
 msgstr ""
-"Chyba! Váš tak se skládal pouze ze značkovacího kódu. Proto nebyl přidán. "
-"Vepište pouze čistý text a zkuste to znovu."
+"Chyba! Váš tag se skládá pouze ze značkovacího kódu, proto nebyl uložen. "
+"Zadejte pouze čistý text a zkuste to znovu."
 
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
@@ -465,7 +465,7 @@ msgstr "V košíku"
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "Items in your cart: "
-msgstr "Položky v košíku: "
+msgstr "Položky ve Vašem košíku: "
 
 #. IMG
 #: opac-tmpl/ccsr/en/includes/masthead.inc:80
@@ -474,7 +474,7 @@ msgstr "Koha on-line katalog"
 
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:3
 msgid "Koha [% Version %]"
-msgstr "Koha [% Verze %]"
+msgstr "Koha [% Version %]"
 
 #: opac-tmpl/ccsr/en/includes/opac-bottom.inc:37
 #, c-format
