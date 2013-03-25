@@ -515,7 +515,7 @@ msgstr "Přihlaste se do svého účtu"
 #: opac-tmpl/ccsr/en/includes/masthead.inc:243
 #, c-format
 msgid "Most popular"
-msgstr "Nejčtenější"
+msgstr "Nejoblíbenější"
 
 #. For the first occurrence,
 #. SCRIPT
@@ -625,13 +625,13 @@ msgstr "Edice"
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "Sorry, tags are not enabled on this system."
-msgstr "Omlouváme se, přidávání tagu není povoleno."
+msgstr "Litujeme, tagy nejsou v tomto systému povolené."
 
 #: opac-tmpl/ccsr/en/includes/masthead.inc:124
 #: opac-tmpl/ccsr/en/includes/masthead.inc:126
 #, c-format
 msgid "Subject"
-msgstr "Téma"
+msgstr "Předmět"
 
 #: opac-tmpl/ccsr/en/includes/masthead.inc:242
 #, c-format, 
@@ -642,7 +642,7 @@ msgstr "Nejčastější témata"
 #: opac-tmpl/ccsr/en/includes/masthead.inc:278
 #: opac-tmpl/ccsr/en/includes/masthead.inc:283
 msgid "Subscribe to this search"
-msgstr "Přihlásit odběr výsledků tohoto hledání"
+msgstr "Přihlásit se k odběru výsledků tohoto vyhledávání"
 
 #: opac-tmpl/ccsr/en/includes/masthead.inc:241
 #, c-format, 
@@ -658,33 +658,33 @@ msgstr "Přidané tagy: "
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "This item has been added to your cart"
-msgstr "Položka byla vložena do košíku"
+msgstr "Jednotka byla vložena do košíku"
 
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "This item has been removed from your cart"
-msgstr "Položka byla z košíku odstraněna"
+msgstr "Jednotka byla z košíku vyjmuta"
 
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "This item is already in your cart"
-msgstr "Tato položka už se v košíku nachází"
+msgstr "Tuto jednotku už v košíku máte"
 
 #: opac-tmpl/ccsr/en/includes/masthead.inc:114
 #: opac-tmpl/ccsr/en/includes/masthead.inc:116
 #, c-format
 msgid "Title"
-msgstr "Název"
+msgstr "Titul"
 
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "Unable to add one or more tags."
-msgstr "Jeden nebo více tagů se nepodařilo uložit."
+msgstr "Jeden nebo více tagů nebylo možné přidat."
 
 #. A
 #: opac-tmpl/ccsr/en/includes/masthead.inc:66
 msgid "View your search history"
-msgstr "Prohlédnout si historii hledání"
+msgstr "Zobrazit Vaši historii hledání"
 
 #: opac-tmpl/ccsr/en/includes/masthead.inc:62
 #, c-format
@@ -699,12 +699,12 @@ msgstr "Pro přidávání tagů musíte být přihlášeni."
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "Your cart is currently empty"
-msgstr "Košík je v tuto chvíli prázdný"
+msgstr "Váš košík je prázdný"
 
 #: opac-tmpl/ccsr/en/includes/masthead.inc:8
 #, c-format
 msgid "Your cart is empty."
-msgstr "Košík je prázdný."
+msgstr "Váš košík je prázdný."
 
 #: opac-tmpl/ccsr/en/includes/masthead.inc:31
 #, c-format
@@ -715,7 +715,7 @@ msgstr "Vaše seznamy"
 #: opac-tmpl/ccsr/en/includes/masthead.inc:275
 #, c-format
 msgid "Your search returned %s results."
-msgstr "Vašemu dotazu odpovídá %s výsledků."
+msgstr "Váš dotaz vrátil %s výsledků."
 
 #. INPUT type=text name=q
 #: opac-tmpl/ccsr/en/includes/masthead.inc:147
@@ -740,17 +740,17 @@ msgstr "[Zobrazit vše]"
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "already in your cart"
-msgstr "se již v košíku nachází"
+msgstr "již jsou v košíku"
 
 #: opac-tmpl/ccsr/en/includes/usermenu.inc:13
 #, c-format
 msgid "change my password"
-msgstr "Změnit heslo"
+msgstr "změnit heslo"
 
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "item(s) added to your cart"
-msgstr "položek vloženo do košíku"
+msgstr "položka/y vložena/y do košíku"
 
 #: opac-tmpl/ccsr/en/includes/usermenu.inc:6
 #, c-format
@@ -780,7 +780,7 @@ msgstr "Soukromí"
 #: opac-tmpl/ccsr/en/includes/usermenu.inc:26
 #, c-format
 msgid "my purchase suggestions"
-msgstr "Vaše návrhy na nákup"
+msgstr "Návrhy na nákup"
 
 #: opac-tmpl/ccsr/en/includes/usermenu.inc:19
 #, c-format
@@ -841,4 +841,4 @@ msgstr "Katalog knihovny [% LibraryName %]"
 #. SCRIPT
 #: /usr/share/koha/opac/htdocs/opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "No tag was specified."
-msgstr "Nebyl zadán žádný tag."
+msgstr "Žádný tag nebyl zadán."
