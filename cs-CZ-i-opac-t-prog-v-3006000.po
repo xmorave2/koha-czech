@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2012-10-22 20:24+0200\n"
-"PO-Revision-Date: 2013-03-25 12:05+0200\n"
+"PO-Revision-Date: 2013-03-25 12:56+0200\n"
 "Last-Translator: Josef Moravec <josef.moravec@gmail.com>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/opac-prog/cs/>\n"
 "Language: cs-CZ\n"
@@ -10365,7 +10365,7 @@ msgstr "Pro přidávání tagů je nutné být přihlášený."
 #: opac-tmpl/prog/en/includes/masthead.inc:162
 #, c-format
 msgid "Log in to create your own lists"
-msgstr "Pro vytváření vlastních seznamů je nutné být přihlášený"
+msgstr "Pro vytvoření vlastního seznamu musíte být přihlášeni"
 
 #: opac-tmpl/prog/en/includes/masthead.inc:5
 #: opac-tmpl/prog/en/modules/opac-detail.tt:1109
@@ -10799,7 +10799,7 @@ msgstr "Další hledání"
 #: opac-tmpl/prog/en/includes/masthead.inc:118
 #, c-format
 msgid "Most popular"
-msgstr "Nejoblíbenější"
+msgstr "Nejčtenější"
 
 #: opac-tmpl/prog/en/xslt/NORMARCslim2OPACDetail.xsl:46
 #: opac-tmpl/prog/en/xslt/NORMARCslim2OPACResults.xsl:39
@@ -11050,13 +11050,13 @@ msgstr "Žádné záznamy k zobrazení"
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "No item was added to your cart"
-msgstr "Do vašeho košíku nebyla vložena žádná jednotka"
+msgstr "Do košíku nebyly vloženy žádné položky"
 
 #. For the first occurrence,
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "No item was selected"
-msgstr "Nebyla vybrána žádná jednotka"
+msgstr "Nebyly vybrány žádné položky"
 
 #: opac-tmpl/prog/en/modules/opac-results-grouped.tt:258
 #: opac-tmpl/prog/en/modules/opac-results.tt:511
@@ -11111,7 +11111,7 @@ msgstr "Nebyly nalezeny žádné výsledky!"
 #: opac-tmpl/prog/en/modules/opac-shelves.tt:4
 #: opac-tmpl/prog/en/modules/opac-basket.tt:22
 msgid "No tag was specified."
-msgstr "Žádný tag nebyl zadán."
+msgstr "Nebyl zadán žádný tag."
 
 #: opac-tmpl/prog/en/modules/opac-detail.tt:513
 #, c-format
@@ -11198,7 +11198,7 @@ msgstr "Poznámka: Váš komentář musí být schválen zaměstnancem knihovny.
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "Note: you can only delete your own tags."
-msgstr "Poznámka: můžete mazat pouze vámi vložené tagy."
+msgstr "Poznámka: mazat můžete pouze vámi vložené tagy."
 
 #. %1$s:  ELSIF ( ERROR.scrubbed ) 
 #: opac-tmpl/prog/en/modules/opac-tags.tt:48
@@ -11216,16 +11216,16 @@ msgid ""
 "Note: you can only tag an item with a given term once. Check 'My Tags' to "
 "see your current tags."
 msgstr ""
-"Poznámka: k jednomu záznamu můžete vložit jeden tag pouze jednou. K "
-"zobrazení vámi vložených tagů navštivte stránku \"Moje tagy\"."
+"Poznámka: každý tag můžete k jednomu záznamu přiřadit jen jednou. K "
+"zobrazení svých tagů použijte záložku 'Tagy' v uživatelském účtu."
 
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid ""
 "Note: your tag contained markup code that was removed. The tag was added as "
 msgstr ""
-"Poznámka: váš tag obsahoval značkovací kód, který byl odstraněn. Výsledný "
-"tag je "
+"Poznámka: tag obsahoval značkovací kód, který byl odstraněn. Výsledný tag je "
+""
 
 #: opac-tmpl/prog/en/modules/opac-results-grouped.tt:143
 #: opac-tmpl/prog/en/modules/opac-basket.tt:276
@@ -13006,7 +13006,7 @@ msgstr "Omlouváme se, jednoduchý náhled není dočasně k dispozici"
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "Sorry, tags are not enabled on this system."
-msgstr "Litujeme, tagy nejsou v tomto systému povolené."
+msgstr "Omlouváme se, přidávání tagu není povoleno."
 
 #: opac-tmpl/prog/en/modules/opac-auth.tt:53
 #, c-format
@@ -13213,7 +13213,7 @@ msgstr "Studieplansje"
 #: opac-tmpl/prog/en/modules/opac-results.tt:330
 #, c-format
 msgid "Subject"
-msgstr "Předmět"
+msgstr "Téma"
 
 #: opac-tmpl/prog/en/xslt/UNIMARCslim2OPACDetail.xsl:359
 #, c-format
@@ -13344,7 +13344,7 @@ msgstr "Přihlásit se k odběru e-mailových oznámení o nových číslech "
 #: opac-tmpl/prog/en/includes/masthead.inc:173
 #: opac-tmpl/prog/en/includes/masthead.inc:178
 msgid "Subscribe to this search"
-msgstr "Přihlásit se k odběru výsledků tohoto vyhledávání"
+msgstr "Přihlásit odběr výsledků tohoto hledání"
 
 #: opac-tmpl/prog/en/modules/opac-full-serial-issues.tt:187
 #, c-format
@@ -13889,12 +13889,12 @@ msgstr "Toto je periodikum"
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "This item has been added to your cart"
-msgstr "Jednotka byla vložena do košíku"
+msgstr "Položka byla vložena do košíku"
 
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "This item has been removed from your cart"
-msgstr "Jednotka byla z košíku vyjmuta"
+msgstr "Položka byla z košíku odstraněna"
 
 #. %1$s:  ELSIF ( circ_error_RESTRICTED ) 
 #: opac-tmpl/prog/en/modules/sco/sco-main.tt:130
@@ -13905,7 +13905,7 @@ msgstr "Tato jednotka již byla odepsána. %s "
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "This item is already in your cart"
-msgstr "Tuto jednotku už v košíku máte"
+msgstr "Tato položka už se v košíku nachází"
 
 #. %1$s:  ELSIF ( circ_error_NO_MORE_RENEWALS ) 
 #: opac-tmpl/prog/en/modules/sco/sco-main.tt:122
@@ -14004,7 +14004,7 @@ msgstr "Tidsskrift"
 #: opac-tmpl/prog/en/modules/opac-tags.tt:93
 #, c-format
 msgid "Title"
-msgstr "Titul"
+msgstr "Název"
 
 #: opac-tmpl/prog/en/includes/resort_form.inc:60
 #: opac-tmpl/prog/en/includes/resort_form.inc:62
@@ -14173,7 +14173,7 @@ msgstr "Ukjent;"
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "Unable to add one or more tags."
-msgstr "Jeden nebo více tagů nebylo možné přidat."
+msgstr "Jeden nebo více tagů se nepodařilo uložit."
 
 #: opac-tmpl/prog/en/modules/opac-reserve.tt:473
 #, c-format
@@ -14387,7 +14387,7 @@ msgstr "Zobrazit úplné záhlaví"
 #. A
 #: opac-tmpl/prog/en/includes/masthead.inc:11
 msgid "View your search history"
-msgstr "Zobrazit Vaši historii hledání"
+msgstr "Prohlédnout si historii hledání"
 
 #: opac-tmpl/prog/en/xslt/NORMARCslim2OPACResults.xsl:210
 #, c-format
@@ -14718,12 +14718,12 @@ msgstr "Váš košík "
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "Your cart is currently empty"
-msgstr "Váš košík je prázdný"
+msgstr "Košík je v tuto chvíli prázdný"
 
 #: opac-tmpl/prog/en/includes/masthead.inc:130
 #, c-format
 msgid "Your cart is empty."
-msgstr "Váš košík je prázdný."
+msgstr "Košík je prázdný."
 
 #: opac-tmpl/prog/en/modules/opac-detail.tt:1060
 #, c-format
@@ -14822,7 +14822,7 @@ msgstr "Vaše historie hledání je prázdná."
 #: opac-tmpl/prog/en/includes/masthead.inc:172
 #, c-format
 msgid "Your search returned %s results."
-msgstr "Váš dotaz vrátil %s výsledků."
+msgstr "Vašemu dotazu odpovídá %s výsledků."
 
 #: opac-tmpl/prog/en/modules/sco/sco-main.tt:215
 #, c-format
@@ -15195,7 +15195,7 @@ msgstr "již existuje!"
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "already in your cart"
-msgstr "již jsou v košíku"
+msgstr "se již v košíku nachází"
 
 #: opac-tmpl/prog/en/modules/ilsdi.tt:616
 #: opac-tmpl/prog/en/modules/ilsdi.tt:647
@@ -15468,7 +15468,7 @@ msgstr "cg"
 #: opac-tmpl/prog/en/includes/usermenu.inc:13
 #, c-format
 msgid "change my password"
-msgstr "změnit heslo"
+msgstr "Změnit heslo"
 
 #. IMG
 #: opac-tmpl/prog/en/xslt/MARC21slim2OPACResults.xsl:266
@@ -16118,7 +16118,7 @@ msgstr "item"
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "item(s) added to your cart"
-msgstr "položka/y vložena/y do košíku"
+msgstr "položek vloženo do košíku"
 
 #: opac-tmpl/prog/en/modules/ilsdi.tt:564
 #: opac-tmpl/prog/en/modules/ilsdi.tt:586
@@ -16419,7 +16419,7 @@ msgstr "Soukromí"
 #: opac-tmpl/prog/en/includes/usermenu.inc:26
 #, c-format
 msgid "my purchase suggestions"
-msgstr "Návrhy na nákup"
+msgstr "Vaše návrhy na nákup"
 
 #: opac-tmpl/prog/en/includes/usermenu.inc:19
 #, c-format
