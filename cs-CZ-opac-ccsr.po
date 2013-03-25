@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2012-11-06 16:10+0400\n"
-"PO-Revision-Date: 2013-03-22 15:44+0200\n"
+"PO-Revision-Date: 2013-03-25 12:00+0200\n"
 "Last-Translator: Josef Moravec <josef.moravec@gmail.com>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/opac-ccsr/cs/>\n"
 "Language: cs-CZ\n"
@@ -423,7 +423,7 @@ msgstr "Chyba! Nepodařilo se přidat tag"
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
 msgid "Error! You cannot delete the tag"
-msgstr "Chyba! Tento tag nelze smazat"
+msgstr "Chyba! Nelze odstranit tag"
 
 #. SCRIPT
 #: opac-tmpl/ccsr/en/includes/doc-head-close.inc:56
