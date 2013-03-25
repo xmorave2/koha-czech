@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2012-10-22 20:24+0200\n"
-"PO-Revision-Date: 2013-03-22 15:44+0200\n"
+"PO-Revision-Date: 2013-03-25 12:05+0200\n"
 "Last-Translator: Josef Moravec <josef.moravec@gmail.com>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/opac-prog/cs/>\n"
 "Language: cs-CZ\n"
@@ -9945,7 +9945,7 @@ msgstr "Typ jednotky: "
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:54
 msgid "Items in your cart: "
-msgstr "Položky ve vašem košíku: "
+msgstr "Položky ve Vašem košíku: "
 
 #: opac-tmpl/prog/en/modules/opac-sendbasket.tt:141
 #, c-format
