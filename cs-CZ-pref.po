@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-24 21:51+0200\n"
-"PO-Revision-Date: 2013-03-26 07:43+0200\n"
-"Last-Translator: Josef Moravec <josef.moravec@gmail.com>\n"
+"PO-Revision-Date: 2013-04-04 21:15+0200\n"
+"Last-Translator: Steam Flow <black23@gmail.com>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/pref/cs/>\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "obdržení objednávky."
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#AcqViewBaskets# Show baskets"
-msgstr "Zobrazovat košíky:"
+msgstr "Zobrazovat košíky"
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#AcqViewBaskets# created by staff member."
@@ -59,15 +59,15 @@ msgstr "všechny, bez ohledu na vlastníka."
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#BasketConfirmations# When closing or reopening a basket,"
-msgstr "Ptát se při uzavírání nebo znovuotevírání košíků?"
+msgstr "Při uzavírání nebo znovuotevírání košíku,"
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#BasketConfirmations# always ask for confirmation."
-msgstr "Vždy"
+msgstr "vždy žádat povolení."
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#BasketConfirmations# do not ask for confirmation."
-msgstr "Nikdy"
+msgstr "nežádat povolení."
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#CurrencyFormat# 360 000,00 (FR)"
@@ -79,7 +79,7 @@ msgstr "360,000.00 (US)"
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#CurrencyFormat# Display currencies using the following format"
-msgstr "Měnu zobrazovat ve formátu:"
+msgstr "Měnu zobrazovat v následujícím formátu"
 
 # Acquisitions > Printing
 msgid "acquisitions.pref#OrderPdfFormat# Use"
@@ -103,7 +103,7 @@ msgstr ""
 
 # Acquisitions > Policy
 msgid "acquisitions.pref#gist# Default tax rates are"
-msgstr "Výchozí hodnoty daňové sazby:"
+msgstr "Výchozí hodnoty daňové sazby"
 
 # Administration
 msgid "admin.pref"
@@ -126,12 +126,13 @@ msgid "admin.pref Search Engine"
 msgstr "Vyhledávací stroj"
 
 # Administration > CAS Authentication
+#, fuzzy
 msgid "admin.pref#AllowPkiAuth# Use"
-msgstr "Pro ověření klientského SSL certifikátu použít:"
+msgstr "Pro ověření klientského SSL certifikátu použít"
 
 # Administration > CAS Authentication
 msgid "admin.pref#AllowPkiAuth# field for SSL client certificate authentication"
-msgstr "."
+msgstr "Pole pro ověření certifikátu klienta SSL"
 
 # Administration > CAS Authentication
 msgid "admin.pref#AllowPkiAuth# no"
@@ -139,11 +140,11 @@ msgstr "nic"
 
 # Administration > CAS Authentication
 msgid "admin.pref#AllowPkiAuth# the Common Name"
-msgstr "jméno"
+msgstr "Jméno"
 
 # Administration > CAS Authentication
 msgid "admin.pref#AllowPkiAuth# the emailAddress"
-msgstr "e-mailovou adresu"
+msgstr "E-mailovou adresu"
 
 # Administration > Login options
 msgid "admin.pref#AutoLocation# Don't require"
@@ -222,11 +223,11 @@ msgstr "Informace o přihlášených sezeních ukládat"
 
 # Administration > Login options
 msgid "admin.pref#SessionStorage# as temporary files."
-msgstr "jako přechodný soubor na disku."
+msgstr "jako dočasný soubor na disku."
 
 # Administration > Login options
 msgid "admin.pref#SessionStorage# in a memcached server."
-msgstr "na memcached server."
+msgstr "na memcached serveru."
 
 # Administration > Login options
 msgid "admin.pref#SessionStorage# in the MySQL database."
@@ -329,7 +330,7 @@ msgstr "Automaticky odhlásit uživatele je-li"
 # Administration > Login options
 msgid "admin.pref#timeout# seconds of inactivity. Adding d will specify it in days, e.g. 1d is timeout of one day."
 msgstr ""
-"vteřin neaktivní. Chcete-li určit tuto hodnotu ve dnech, přidejte za číslo "
+"sekund neaktivní. Chcete-li určit tuto hodnotu ve dnech, přidejte za číslo "
 "znak \"d\", například \"1d\" znamená jeden den."
 
 # Administration > Interface options
@@ -458,19 +459,19 @@ msgstr "(jednotlivé možnosti oddělte pomocí znaku \"|\")"
 
 # Authorities > Linker
 msgid "authorities.pref#LinkerOptions# Set the following options for the authority linker"
-msgstr "Nastavení propojovacího modulu:"
+msgstr "Nastavení propojovacího modulu autorit"
 
 # Authorities > Linker
 msgid "authorities.pref#LinkerRelink# Do"
-msgstr ""
+msgstr "Obnovit"
 
 # Authorities > Linker
 msgid "authorities.pref#LinkerRelink# Do not"
-msgstr ""
+msgstr "Neobnovovat"
 
 # Authorities > Linker
 msgid "authorities.pref#LinkerRelink# relink headings that have previously been linked to authority records."
-msgstr ""
+msgstr "propojení záhlaví, která byla již propojena na záznamy autorit."
 
 # Authorities > General
 msgid "authorities.pref#MARCAuthorityControlField008# Use the following text for the contents of MARC authority control field 008 position 06-39 (fixed length data elements). Do NOT include the date (position 00-05)."
@@ -480,11 +481,11 @@ msgstr ""
 
 # Authorities > General
 msgid "authorities.pref#UseAuthoritiesForTracings# Don't use"
-msgstr ""
+msgstr "Nepoužívat"
 
 # Authorities > General
 msgid "authorities.pref#UseAuthoritiesForTracings# Use"
-msgstr ""
+msgstr "Používat"
 
 # Authorities > General
 msgid "authorities.pref#UseAuthoritiesForTracings# authority record numbers instead of text strings for searches from subject tracings."
@@ -526,12 +527,13 @@ msgid "cataloguing.pref Spine Labels"
 msgstr ""
 
 # Cataloging > Record Structure
+#, fuzzy
 msgid "cataloguing.pref#AlternateHoldingsField# ."
-msgstr ""
+msgstr "."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#AlternateHoldingsField# Display MARC subfield"
-msgstr ""
+msgstr "Zobrazit podpole MARC"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#AlternateHoldingsField# as holdings information for records that do not have items (This can contain multiple subfields to look in; for instance <code>852abhi</code> would look in 852 subfields a, b, h, and i.), with the subfields separated by"
@@ -539,27 +541,31 @@ msgstr ""
 
 # Cataloging > Interface
 msgid "cataloguing.pref#DefaultClassificationSource# Use"
-msgstr ""
+msgstr "Použít"
 
 # Cataloging > Interface
 msgid "cataloguing.pref#DefaultClassificationSource# as the default classification source."
-msgstr ""
+msgstr "jhako předvolený klasifikační zdroj."
 
 # Cataloging > Record Structure
+#, fuzzy
 msgid "cataloguing.pref#DefaultLanguageField008#  Empty defaults to eng."
-msgstr ""
+msgstr "Nevyplněné je předvolené eng."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#DefaultLanguageField008# Fill in the default language for field 008 Range 35-37 (e.g. eng, nor, ger, see <a href=\"http://www.loc.gov/marc/languages/language_code.html\">MARC Code List for Languages</a>)"
 msgstr ""
+"Vyplňte předvolený jazyk pro pole 008 rozsah 35-37 (např. eng, cze, slo <a "
+"href=\"http://www.loc.gov/marc/languages/language_code.html\">Seznam "
+"jazykových kódů MARC</a>)"
 
 # Cataloging > Interface
 msgid "cataloguing.pref#EasyAnalyticalRecords# Display"
-msgstr ""
+msgstr "Zobrazit"
 
 # Cataloging > Interface
 msgid "cataloguing.pref#EasyAnalyticalRecords# Don't Display"
-msgstr ""
+msgstr "Nezobrazovat"
 
 # Cataloging > Interface
 msgid "cataloguing.pref#EasyAnalyticalRecords# easy ways to create analytical record relationships"
@@ -567,7 +573,7 @@ msgstr ""
 
 # Cataloging > Display
 msgid "cataloguing.pref#ISBD# Use the following as the ISBD template:"
-msgstr ""
+msgstr "Použít následující jako šablonu ISBD:"
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# By default, display biblio records in"
@@ -575,7 +581,7 @@ msgstr ""
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# ISBD form (see below)."
-msgstr ""
+msgstr "ISBD formátu (viz níže)."
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# Labelled MARC form"
@@ -583,19 +589,19 @@ msgstr ""
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# MARC form."
-msgstr ""
+msgstr "MARC formátu."
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# normal form."
-msgstr ""
+msgstr "normálním formátu."
 
 # Cataloging > Display
 msgid "cataloguing.pref#LabelMARCView# Do"
-msgstr ""
+msgstr "Rozbalovat"
 
 # Cataloging > Display
 msgid "cataloguing.pref#LabelMARCView# Don't"
-msgstr ""
+msgstr "Nerozbalovat"
 
 # Cataloging > Display
 msgid "cataloguing.pref#LabelMARCView# collapse repeated tags of the same type into one tag entry on the display."
@@ -614,20 +620,23 @@ msgid "cataloguing.pref#NewItemsDefaultLocation# (should be a location code, or 
 msgstr ""
 
 # Cataloging > Record Structure
+#, fuzzy
 msgid "cataloguing.pref#NewItemsDefaultLocation# When items are created, give them the temporary location of"
-msgstr ""
+msgstr "Přidělit dočasnou lokaci při tvorbě exemplářů"
 
 # Cataloging > Display
 msgid "cataloguing.pref#OpacSuppression# (Leave blank if not used. Define a range like <code>192.168.</code>.)"
 msgstr ""
+"(Pokud nepoužíváte, nechte prázdné. Definujte rozsah jako "
+"<code>192.168.</code>.)"
 
 # Cataloging > Display
 msgid "cataloguing.pref#OpacSuppression# Don't hide"
-msgstr ""
+msgstr "Neskrývat"
 
 # Cataloging > Display
 msgid "cataloguing.pref#OpacSuppression# Hide"
-msgstr ""
+msgstr "Skrýt"
 
 # Cataloging > Display
 msgid "cataloguing.pref#OpacSuppression# Restrict the suppression to IP adresses outside of the IP range"
