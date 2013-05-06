@@ -1,3 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-06 14:40+0200\n"
+"PO-Revision-Date: 2013-05-06 14:40+0200\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
+"Language-Team: Slovak <http://hosted.weblate.org/projects/koha/pref/sk/>\n"
+"Language: sk-SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 1.6-dev\n"
+
 # Acquisitions
 # Acquisitions
 # Acquisitions
@@ -33290,7 +33305,9 @@ msgstr "Použiť zahrnuté súbory z"
 # Staff Client > Appearance
 # Staff Client > Appearance
 msgid "staff_client.pref#intranet_includes# directory in the template directory, instead of <code>includes/</code>. (Leave blank to disable)"
-msgstr "adresára v fočasnom adresári namiesto code>includes/</code>(prázdnym vynechajte)"
+msgstr ""
+"adresára v fočasnom adresári namiesto <code>includes/</code>(prázdnym "
+"vynechajte)"
 
 # Staff Client > Options
 # Staff Client > Options
@@ -34686,4 +34703,3 @@ msgstr "Zobraziť iba"
 # Web services > Reporting
 msgid "web_services.pref#SvcMaxReportRows# rows of a report requested via the reports web service."
 msgstr "riadky výkazu vyžiadaného cez webový servis výkazov."
-
