@@ -3,15 +3,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-24 21:51+0200\n"
-"PO-Revision-Date: 2013-04-05 09:45+0200\n"
-"Last-Translator: Josef Moravec <josef.moravec@gmail.com>\n"
+"PO-Revision-Date: 2013-07-05 15:07+0200\n"
+"Last-Translator: Bohdan Šmilauer <b.smilauer@post.cz>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/pref/cs/>\n"
 "Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 1.5-dev\n"
+"X-Generator: Weblate 1.6-dev\n"
 
 # Acquisitions
 msgid "acquisitions.pref"
@@ -490,6 +490,7 @@ msgstr "Používat"
 # Authorities > General
 msgid "authorities.pref#UseAuthoritiesForTracings# authority record numbers instead of text strings for searches from subject tracings."
 msgstr ""
+"Čísla autoritního záznamu namísto znakového řetězce pro vyhledání autority."
 
 # Authorities > General
 msgid "authorities.pref#dontmerge# Do"
@@ -524,7 +525,7 @@ msgstr "Struktura záznamů"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref Spine Labels"
-msgstr ""
+msgstr "Hřbetní štítky"
 
 # Cataloging > Record Structure
 #, fuzzy
@@ -585,7 +586,7 @@ msgstr "ISBD formátu (viz níže)."
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# Labelled MARC form"
-msgstr ""
+msgstr "Návěšťový  MARC formulář "
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# MARC form."
@@ -605,7 +606,7 @@ msgstr "Nerozbalovat"
 
 # Cataloging > Display
 msgid "cataloguing.pref#LabelMARCView# collapse repeated tags of the same type into one tag entry on the display."
-msgstr ""
+msgstr "sloučení opakovaných čísel polí stejného typu do jednoho."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#MARCOrgCode# Fill in the <a href=\"http://www.loc.gov/marc/organizations/orgshome.html\">MARC organization code</a>"
@@ -617,7 +618,7 @@ msgstr ""
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#NewItemsDefaultLocation# (should be a location code, or blank to disable)."
-msgstr ""
+msgstr "(má být kód umístění, nebo prázdné, když se nepoužije)."
 
 # Cataloging > Record Structure
 #, fuzzy
