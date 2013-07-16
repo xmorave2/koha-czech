@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-24 21:51+0200\n"
-"PO-Revision-Date: 2013-07-05 15:07+0200\n"
+"PO-Revision-Date: 2013-07-16 23:44+0200\n"
 "Last-Translator: Bohdan Šmilauer <b.smilauer@post.cz>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/pref/cs/>\n"
 "Language: cs-CZ\n"
@@ -528,9 +528,8 @@ msgid "cataloguing.pref Spine Labels"
 msgstr "Hřbetní štítky"
 
 # Cataloging > Record Structure
-#, fuzzy
 msgid "cataloguing.pref#AlternateHoldingsField# ."
-msgstr "."
+msgstr "Pole pro další exempláře."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#AlternateHoldingsField# Display MARC subfield"
@@ -539,6 +538,10 @@ msgstr "Zobrazit podpole MARC"
 # Cataloging > Record Structure
 msgid "cataloguing.pref#AlternateHoldingsField# as holdings information for records that do not have items (This can contain multiple subfields to look in; for instance <code>852abhi</code> would look in 852 subfields a, b, h, and i.), with the subfields separated by"
 msgstr ""
+"jako informace o svazku pro záznamy, které nemají jednotky (Toto může "
+"obsahovat násobná podpole pro vyhledávání; např. <code>852abhi</code> by "
+"vyhledával v  poli 852 a v podpolích a, b, h, i.), přičemž podpole jsou "
+"oddělena pomocí"
 
 # Cataloging > Interface
 msgid "cataloguing.pref#DefaultClassificationSource# Use"
@@ -549,9 +552,8 @@ msgid "cataloguing.pref#DefaultClassificationSource# as the default classificati
 msgstr "jhako předvolený klasifikační zdroj."
 
 # Cataloging > Record Structure
-#, fuzzy
 msgid "cataloguing.pref#DefaultLanguageField008#  Empty defaults to eng."
-msgstr "Nevyplněné je předvolené eng."
+msgstr "Nevyplněné je předvolené  na eng."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#DefaultLanguageField008# Fill in the default language for field 008 Range 35-37 (e.g. eng, nor, ger, see <a href=\"http://www.loc.gov/marc/languages/language_code.html\">MARC Code List for Languages</a>)"
@@ -570,7 +572,7 @@ msgstr "Nezobrazovat"
 
 # Cataloging > Interface
 msgid "cataloguing.pref#EasyAnalyticalRecords# easy ways to create analytical record relationships"
-msgstr ""
+msgstr "snadný způsob vytvoření vazby analytického záznamu na zdrojový dokument"
 
 # Cataloging > Display
 msgid "cataloguing.pref#ISBD# Use the following as the ISBD template:"
@@ -578,7 +580,7 @@ msgstr "Použít následující jako šablonu ISBD:"
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# By default, display biblio records in"
-msgstr ""
+msgstr "Implicitně zobrazuj bibliografické záznamy ve formátu"
 
 # Cataloging > Display
 msgid "cataloguing.pref#IntranetBiblioDefaultView# ISBD form (see below)."
@@ -611,17 +613,20 @@ msgstr "sloučení opakovaných čísel polí stejného typu do jednoho."
 # Cataloging > Record Structure
 msgid "cataloguing.pref#MARCOrgCode# Fill in the <a href=\"http://www.loc.gov/marc/organizations/orgshome.html\">MARC organization code</a>"
 msgstr ""
+"Vyplnit <a href=\"http://www.loc.gov/marc/organizations/orgshome.html\">Kód "
+"organizace pro MARC </a>"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#MARCOrgCode# by default in new MARC records (leave blank to disable)."
 msgstr ""
+"implicitně při tvorbě nového bibliografického záznamu (ponechat prázdné, "
+"nechceme-li kód organizace pro MARC vyplňovat)."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#NewItemsDefaultLocation# (should be a location code, or blank to disable)."
 msgstr "(má být kód umístění, nebo prázdné, když se nepoužije)."
 
 # Cataloging > Record Structure
-#, fuzzy
 msgid "cataloguing.pref#NewItemsDefaultLocation# When items are created, give them the temporary location of"
 msgstr "Přidělit dočasnou lokaci při tvorbě exemplářů"
 
@@ -641,199 +646,217 @@ msgstr "Skrýt"
 
 # Cataloging > Display
 msgid "cataloguing.pref#OpacSuppression# Restrict the suppression to IP adresses outside of the IP range"
-msgstr ""
+msgstr "Omez potlačení IP adres vně rozsahu IP"
 
 # Cataloging > Display
 msgid "cataloguing.pref#OpacSuppression# items marked as suppressed from OPAC search results. Note that you must have the <code>Suppress</code> index set up in Zebra and at least one suppressed item, or your searches will be broken."
 msgstr ""
+"exempláře označené jako potlačené z výsledků hledání v OPAC. Nezapoměntě že "
+"musíte mít <code>Suppress</code> nastaven index v Zebra a min. jeden "
+"potlačený exemplář, jinak vaše vyhledání neproběhne."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#PrefillItem# When a new item is added,"
-msgstr ""
+msgstr "Při vložení nového exemláře,"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#PrefillItem# the new item is not prefilled with last created item values."
-msgstr ""
+msgstr "tento nový exemplář nebude předvyplněn hodnotami předchozího exempláře."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#PrefillItem# the new item is prefilled with last created item values."
 msgstr ""
+"nový exemplář je předvyplněn hodnotami z posledně vytvořeného exempláře."
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelAutoPrint# When using the quick spine label printer,"
-msgstr ""
+msgstr "Při použití rychlotiskárny hřbetních štítků"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelAutoPrint# automatically pop up a print dialog."
-msgstr ""
+msgstr "automaticky vyskakovací okno o tiskárně."
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelAutoPrint# do"
-msgstr ""
+msgstr "povolit"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelAutoPrint# don't"
-msgstr ""
+msgstr "nepovolit"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelFormat# (Enter in columns from the <code>biblio</code>, <code>biblioitems</code> or <code>items</code> tables, surrounded by &lt; and &gt;.)"
 msgstr ""
+"(Vlož ve sloupcích v tabulkách <code>biblio</code>, <code>biblioitems</code> "
+"or <code>items</code>, obklopené &lt; a &gt;.)"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelFormat# Include the following fields on a quick-printed spine label:"
-msgstr ""
+msgstr "Včetně následujících polí na hřbetních štítcích:"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelShowPrintOnBibDetails# Display"
-msgstr ""
+msgstr "Zobrazit"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelShowPrintOnBibDetails# Don't display"
-msgstr ""
+msgstr "Nezobrazit"
 
 # Cataloging > Spine Labels
 msgid "cataloguing.pref#SpineLabelShowPrintOnBibDetails# buttons on the bib details page to print item spine labels."
-msgstr ""
+msgstr "tlačítko pro tisk hřbetního štítku exempláře."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#SubfieldsToUseWhenPrefill# Define a list of subfields to use when prefilling items (separated by space)"
 msgstr ""
+"Uveď seznam předvyplněných podpolí pro nový exemplář (oddělených mezerou)"
 
 # Cataloging > Display
 msgid "cataloguing.pref#URLLinkText# Show"
-msgstr ""
+msgstr "Zobrazit"
 
 # Cataloging > Display
 msgid "cataloguing.pref#URLLinkText# as the text of links embedded in MARC records."
-msgstr ""
+msgstr "jako textový odkaz vnořený do MARC záznamu. "
 
 # Cataloging > Display
 msgid "cataloguing.pref#UseControlNumber# Don't use"
-msgstr ""
+msgstr "Nepoužívej"
 
 # Cataloging > Display
 msgid "cataloguing.pref#UseControlNumber# Use"
-msgstr ""
+msgstr "Používej"
 
 # Cataloging > Display
 msgid "cataloguing.pref#UseControlNumber# record control number ($w subfields) and control number (001) for linking of bibliographic records."
 msgstr ""
+"kontrolní číslo záznamu ($w podpole) a kontrolní číslo (001) pro spojení s "
+"bibliografickým záznamem."
 
 # Cataloging > Interface
 msgid "cataloguing.pref#advancedMARCeditor# Display"
-msgstr ""
+msgstr "Zobrazuj"
 
 # Cataloging > Interface
 msgid "cataloguing.pref#advancedMARCeditor# Don't display"
-msgstr ""
+msgstr "Nezobrazuj"
 
 # Cataloging > Interface
 msgid "cataloguing.pref#advancedMARCeditor# descriptions of fields and subfields in the MARC editor."
-msgstr ""
+msgstr "popisky polí a podpolí v MARC editoru."
 
 # Cataloging > Display
 msgid "cataloguing.pref#authoritysep# ."
-msgstr ""
+msgstr "."
 
 # Cataloging > Display
 msgid "cataloguing.pref#authoritysep# Separate multiple displayed authors, series or subjects with "
-msgstr ""
+msgstr "Odděluj více zobrazených autorů, serie nebo předměty pomocí "
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# Barcodes are"
-msgstr ""
+msgstr "Čárový kód je"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# generated in the form &lt;branchcode&gt;yymm0001."
-msgstr ""
+msgstr "generován ve formátu &lt;branchcode&gt;yymm0001."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# generated in the form &lt;year&gt;-0001, &lt;year&gt;-0002."
-msgstr ""
+msgstr "generován ve formátu &lt;year&gt;-0001, &lt;year&gt;-0002."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# generated in the form 1, 2, 3."
-msgstr ""
+msgstr "generován ve formátu 1, 2, 3."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# incremental EAN-13 barcodes"
-msgstr ""
+msgstr "přírůstkové EAN-13 čárové kódy"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#autoBarcode# not generated automatically."
-msgstr ""
+msgstr "není generován automaticky."
 
 # Cataloging > Display
 msgid "cataloguing.pref#hide_marc# Display"
-msgstr ""
+msgstr "Zobrazuj"
 
 # Cataloging > Display
 msgid "cataloguing.pref#hide_marc# Don't display"
-msgstr ""
+msgstr "Nezobrazuj"
 
 # Cataloging > Display
 msgid "cataloguing.pref#hide_marc# MARC tag numbers, subfield codes and indicators in MARC views."
-msgstr ""
+msgstr "čísla polí MARC, kódy podpolí a indikátorů v MARC zobrazení."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#item-level_itypes# Use the item type of the"
-msgstr ""
+msgstr "Užij typ exempláře podle"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#item-level_itypes# as the authoritative item type (for determining circulation and fines rules, etc)."
 msgstr ""
+"jako autoritní typ exempláře (pro určení pravidel výpůjček, pokut, atd.)."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#item-level_itypes# biblio record"
-msgstr ""
+msgstr "bibliografický záznam"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#item-level_itypes# specific item"
-msgstr ""
+msgstr "specifický holdingový záznam"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#itemcallnumber# Map the MARC subfield"
-msgstr ""
+msgstr "Namapuj MARC podpole"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#itemcallnumber# to an item's callnumber. (This can contain multiple subfields to look in; for instance <code>082ab</code> would look in 082 subfields a and b.)<br />Examples: <strong>Dewey</strong>: <code>082ab</code> or <code>092ab</code>; <strong>LOC</strong>: <code>050ab</code> or <code>090ab</code>; <strong>from the item record</strong>: <code>852hi</code>"
 msgstr ""
+"na signaturu exempláře. (Toto může znamenat prohledaní více podpolí; např.  "
+"<code>082ab</code> by znamenalo prohledání podpolí a a b v poli 082. <br "
+"/>Příklady: <strong>Dewey</strong>: <code>082ab</code>nebo "
+"<code>092ab</code>; <strong>LOC</strong>: <code>050ab</code> nebo "
+"<code>090ab</code>; <strong>z holdingového záznamu</strong>: "
+"<code>852hi</code>"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#marcflavour# Interpret and store MARC records in the"
-msgstr ""
+msgstr "Zobrazuj a uchovávej MARC záznam v"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#marcflavour# MARC21"
-msgstr ""
+msgstr "MARC21"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#marcflavour# NORMARC"
-msgstr ""
+msgstr "NORMARC"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#marcflavour# UNIMARC"
-msgstr ""
+msgstr "UNIMARC"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#marcflavour# format."
-msgstr ""
+msgstr "formátu."
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#z3950NormalizeAuthor# Copy"
-msgstr ""
+msgstr "Kopíruj"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#z3950NormalizeAuthor# Don't copy"
-msgstr ""
+msgstr "Nekopíruj"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#z3950NormalizeAuthor# authors from the UNIMARC"
-msgstr ""
+msgstr "autory z UNIMARC polí"
 
 # Cataloging > Record Structure
 msgid "cataloguing.pref#z3950NormalizeAuthor# tags (separated by commas) to the correct author tags when importing a record using Z39.50."
 msgstr ""
+"(oddělené čárkou) do opravených autorských polí, během importu pomocí "
+"Z39.50."
 
 # Circulation
 msgid "circulation.pref"
@@ -841,47 +864,52 @@ msgstr ""
 
 # Circulation > Checkin Policy
 msgid "circulation.pref Checkin Policy"
-msgstr ""
+msgstr "Politika vrácení"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref Checkout Policy"
-msgstr ""
+msgstr "Politika výdeje"
 
 # Circulation > Fines Policy
 msgid "circulation.pref Fines Policy"
-msgstr ""
+msgstr "Politika pokutování"
 
 # Circulation > Holds Policy
 msgid "circulation.pref Holds Policy"
-msgstr ""
+msgstr "Politika rezervací"
 
 # Circulation > Interface
 msgid "circulation.pref Interface"
-msgstr ""
+msgstr "Rozhraní pro knihovníka"
 
 # Circulation > Self Checkout
 msgid "circulation.pref Self Checkout"
-msgstr ""
+msgstr "Samoobslužné výpůjčky"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionMarker# E.g. enter target audience keyword(s) split by | (bar) FSK|PEGI|Age| (No white space near |). Be sure to map agerestriction in Koha to MARC mapping (e.g. 521$a). A MARC field value of FSK 12 or PEGI 12 would mean: Borrower must be 12 years old. Leave empty to not apply an age restriction."
 msgstr ""
+"např. zapište kódy cílové skupiny oddělené | (svislítko) FSK|PEGI|Věk (u "
+"svislítek | nejsou žádné mezery). Ujistěte se, že věkový limit je zapsán v "
+"poli MARC (např. 521$a). Hodnota FSK 12 nebo PEGI 12 by znamenala: "
+"Vypůjčovatel musí mít 12 let. Nechte prázdné, pokud neuplatňujete věkový "
+"limit."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionMarker# Restrict patrons with the following target audience values from checking out inappropriate materials:"
-msgstr ""
+msgstr "Omez čtenáře na hodnoty cílové skupiny výpůjček nevhodných materiálů:"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AgeRestrictionOverride# staff to check out an item with age restriction."
-msgstr ""
+msgstr "knihovně vypůjčit exemplář s věkovým limitem."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllFinesNeedOverride# Don't require"
