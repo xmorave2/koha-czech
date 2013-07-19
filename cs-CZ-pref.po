@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-24 21:51+0200\n"
-"PO-Revision-Date: 2013-07-16 23:44+0200\n"
+"PO-Revision-Date: 2013-07-19 15:15+0200\n"
 "Last-Translator: Bohdan Šmilauer <b.smilauer@post.cz>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/pref/cs/>\n"
 "Language: cs-CZ\n"
@@ -922,214 +922,226 @@ msgstr ""
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllFinesNeedOverride# staff to manually override all fines, even fines less than noissuescharge."
 msgstr ""
+"obsluze ručně přepsat všechny pokuty, a to i pokuty nižší než "
+"noissuescharge."
 
 # Circulation > Interface
 msgid "circulation.pref#AllowAllMessageDeletion# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Interface
 msgid "circulation.pref#AllowAllMessageDeletion# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Interface
 msgid "circulation.pref#AllowAllMessageDeletion# staff to delete messages added from other libraries."
-msgstr ""
+msgstr "obsluze vymazat zprávy přidané z jiných knihoven."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowFineOverride# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowFineOverride# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Checkout Policy
+#, fuzzy
 msgid "circulation.pref#AllowFineOverride# staff to manually override and check out items to patrons who have more than noissuescharge in fines."
 msgstr ""
+"Obsluze ručně přepsat a vydat výpůjčky čtenářům, kteří mají více než "
+"noissuescharge pokut."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldDateInFuture# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldDateInFuture# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldDateInFuture# hold requests to be placed that do not enter the waiting list until a certain future date."
-msgstr ""
+msgstr "rezervace, které nejsou v pořadí až do určitého budoucího data."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldPolicyOverride# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldPolicyOverride# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldPolicyOverride# staff to override hold policies when placing holds."
-msgstr ""
+msgstr "obsluze ignorovat pravidla rezervací."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldsOnDamagedItems# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldsOnDamagedItems# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowHoldsOnDamagedItems# hold requests to be placed on damaged items."
-msgstr ""
+msgstr "rezervovat poškozené výtisky."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckout# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckout# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowItemsOnHoldCheckout# checkouts of items reserved to someone else. If allowed do not generate RESERVE_WAITING and RESERVED warning. This allows self checkouts for those items."
 msgstr ""
+"výdej výtisků rezervovaných jiné osobě.  Je-li toto povoleno negeneruj "
+"hlášení RESERVE_WAITING a RESERVED. Toto povolí samoobjednání pro takévé "
+"výtisky."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowNotForLoanOverride# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowNotForLoanOverride# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowNotForLoanOverride# staff to override and check out items that are marked as not for loan."
-msgstr ""
+msgstr "obsluze ignorovat a vydat výtisky označené, že se nepůjčují."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowOnShelfHolds# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowOnShelfHolds# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AllowOnShelfHolds# hold requests to be placed on items that are not checked out."
-msgstr ""
+msgstr "rezervace na výtisky, které nejsou vypůjčené."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowRenewalLimitOverride# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowRenewalLimitOverride# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowRenewalLimitOverride# staff to manually override the renewal limit and renew a checkout when it would go over the renewal limit."
 msgstr ""
+"obsluze ignorovat prodlužovací limit a prodloužit výpůjčku překračující "
+"limit prolongací."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowReturnToBranch# Allow materials to be returned to"
-msgstr ""
+msgstr "Povolit vrácení materiálů"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowReturnToBranch# either the library the item is from or the library it was checked out from."
-msgstr ""
+msgstr "buď do pobočky z které pochází nebo kde byly vydány."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowReturnToBranch# only the library the item is from."
-msgstr ""
+msgstr "pouze do knihovny, z které pochází."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowReturnToBranch# only the library the item was checked out from."
-msgstr ""
+msgstr "pouze do pobočky, kde byly vydány."
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AllowReturnToBranch# to any library."
-msgstr ""
+msgstr "do jakékoliv pobočky."
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AllowSelfCheckReturns# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AllowSelfCheckReturns# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AllowSelfCheckReturns# patrons to return items through web-based self checkout system."
-msgstr ""
+msgstr "čtenářům vracet výpůjčky pomocí webovského samoobslužného systému."
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AutoResumeSuspendedHolds# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AutoResumeSuspendedHolds# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Holds Policy
 msgid "circulation.pref#AutoResumeSuspendedHolds# suspended holds to be automatically resumed by a set date."
-msgstr ""
+msgstr "zrušené rezervace, aby byly obnoveny k danému datu."
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AutoSelfCheckAllowed# ."
-msgstr ""
+msgstr "."
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AutoSelfCheckAllowed# Allow"
-msgstr ""
+msgstr "Povolit"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AutoSelfCheckAllowed# Don't allow"
-msgstr ""
+msgstr "Nepovolit"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AutoSelfCheckAllowed# and this password"
-msgstr ""
+msgstr "a toto heslo"
 
 # Circulation > Self Checkout
 msgid "circulation.pref#AutoSelfCheckAllowed# the web-based self checkout system to automatically login with this staff login"
 msgstr ""
+"webovský samobslužný systém automaticky přihlásit s tímto knihovnickým "
+"přihlášením"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AutomaticItemReturn# Do"
-msgstr ""
+msgstr "Poslat"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AutomaticItemReturn# Don't"
-msgstr ""
+msgstr "Neposlat"
 
 # Circulation > Checkout Policy
 msgid "circulation.pref#AutomaticItemReturn# automatically transfer items to their home library when they are returned."
-msgstr ""
+msgstr "automaticky vrácené výtisky do jejich domovské knihovny."
 
 # Circulation > Checkin Policy
 msgid "circulation.pref#BlockReturnOfWithdrawnItems# Block"
-msgstr ""
+msgstr "Blokovat"
 
 # Circulation > Checkin Policy
 msgid "circulation.pref#BlockReturnOfWithdrawnItems# Don't block"
-msgstr ""
+msgstr "Neblokovat"
 
 # Circulation > Checkin Policy
 msgid "circulation.pref#BlockReturnOfWithdrawnItems# returning of items that have been withdrawn."
-msgstr ""
+msgstr "vrácení materiálů, které byly vyřazeny."
 
 # Circulation > Interface
 msgid "circulation.pref#CircAutoPrintQuickSlip# ."
-msgstr ""
+msgstr "."
 
 # Circulation > Interface
 msgid "circulation.pref#CircAutoPrintQuickSlip# When an empty barcode field is submitted in circulation"
-msgstr ""
+msgstr "Pokud je pole čárového kódu výpůjčky prázdné"
 
 # Circulation > Interface
 msgid "circulation.pref#CircAutoPrintQuickSlip# clear the screen"
-msgstr ""
+msgstr "vymaž obrazovku"
 
 # Circulation > Interface
 msgid "circulation.pref#CircAutoPrintQuickSlip# open a print quick slip window"
