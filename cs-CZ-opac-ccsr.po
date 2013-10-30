@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-07-17 10:40-0300\n"
-"PO-Revision-Date: 2013-08-26 20:00+0000\n"
-"Last-Translator: Josef <josef.moravec@knihovna-uo.cz>\n"
+"PO-Revision-Date: 2013-10-30 11:25+0200\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/opac-ccsr/cs/>\n"
-"Language: cs\n"
+"Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Weblate 1.8-dev\n"
 "X-POOTLE-MTIME: 1377547207.0\n"
 
 #. For the first occurrence,
@@ -410,7 +410,7 @@ msgstr "Autor"
 #: opac-tmpl/ccsr/en/includes/masthead.inc:196
 #, c-format
 msgid "Authority search"
-msgstr "Vyhledávání autorů"
+msgstr "Vyhledávání autority"
 
 #: opac-tmpl/ccsr/en/includes/masthead.inc:195
 #, c-format
