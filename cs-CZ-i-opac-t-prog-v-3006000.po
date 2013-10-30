@@ -6,15 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-08-15 23:35-0300\n"
-"PO-Revision-Date: 2013-08-26 20:14+0000\n"
-"Last-Translator: Josef <josef.moravec@knihovna-uo.cz>\n"
+"PO-Revision-Date: 2013-10-30 11:32+0200\n"
+"Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: Czech <http://hosted.weblate.org/projects/koha/opac-prog/cs/>\n"
-"Language: cs\n"
+"Language: cs-CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Pootle 2.5.0\n"
+"X-Generator: Weblate 1.8-dev\n"
 "X-POOTLE-MTIME: 1377548060.0\n"
 
 #. %1$s:  END 
@@ -6502,7 +6502,7 @@ msgstr "&nbsp;&nbsp;(%s hlasů)"
 #: opac-tmpl/prog/en/modules/opac-detail.tt:680
 #, c-format
 msgid "&nbsp;|&nbsp; "
-msgstr "&nbsp;&nbsp; "
+msgstr "&nbsp;|&nbsp; "
 
 #: opac-tmpl/prog/en/xslt/NORMARCslim2OPACDetail.xsl:76
 #: opac-tmpl/prog/en/xslt/UNIMARCslim2OPACResults.xsl:139
@@ -7444,7 +7444,7 @@ msgid ""
 "by your browser.] "
 msgstr ""
 "<%s controls preload=none> %s <%s src=\"%s\"%s /> %s [HTML tag \"%s\" není "
-"ve Vašem prohlížeči podporován.] "
+"podporován ve Vašem prohlížeči.] "
 
 #: opac-tmpl/prog/en/xslt/UNIMARCslim2OPACResults.xsl:55
 #: opac-tmpl/prog/en/xslt/UNIMARCslimUtils.xsl:106
@@ -8094,7 +8094,7 @@ msgstr "Autor:"
 #: opac-tmpl/prog/en/modules/opac-authorities-home.tt:17
 #, c-format
 msgid "Authority search"
-msgstr "Vyhledávání autorů"
+msgstr "Vyhledávání autority"
 
 #: opac-tmpl/prog/en/modules/opac-authoritiessearchresultlist.tt:15
 #, c-format
@@ -9016,8 +9016,8 @@ msgstr "Korporativní autor (Vedlejší)"
 msgid ""
 "Could not login, perhaps your Persona email does not match your Koha one"
 msgstr ""
-"Přihlášení se nezdařilo, Váš e-mail v systému Persona pravděpodobně "
-"nesouhlasí s tím, který máme v evidenci"
+"Přihlášení se nezdařilo, pravděpodobně Váš e-mail v Personě nesouhlasí s "
+"tím, který máte přiřazen v systému Koha"
 
 #: opac-tmpl/prog/en/modules/opac-results.tt:394
 #: opac-tmpl/prog/en/modules/opac-results-grouped.tt:159
@@ -15748,7 +15748,7 @@ msgstr "Váš košík "
 #. SCRIPT
 #: opac-tmpl/prog/en/includes/doc-head-close.inc:58
 msgid "Your cart is currently empty"
-msgstr "Váš košík je prázdný"
+msgstr "Váš košík je momentálně prázdný"
 
 #: opac-tmpl/prog/en/includes/masthead.inc:151
 #, c-format
@@ -16330,7 +16330,7 @@ msgstr "článek"
 #: opac-tmpl/prog/en/xslt/NORMARCslim2OPACResults.xsl:412
 #, c-format
 msgid "at"
-msgstr "at"
+msgstr "v"
 
 #. %1$s:  WAITIN.branch 
 #. %2$s:  ELSE 
@@ -17515,7 +17515,7 @@ msgstr "Soukromí"
 #: opac-tmpl/prog/en/includes/usermenu.inc:26
 #, c-format
 msgid "my purchase suggestions"
-msgstr "Návrhy na nákup"
+msgstr "Moje návrhy na nákup"
 
 #: opac-tmpl/prog/en/includes/usermenu.inc:19
 #, c-format
